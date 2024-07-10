@@ -1,0 +1,203 @@
+/* Mobile Devices (max-width: 480px) */
+
+@media (max-width: 480px) {
+  /* Header Styles */
+  .header {
+    padding: 10px;
+  }
+  .logo {
+    font-size: 18px;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .menu {
+    display: block;
+  }
+  .hamburger {
+    margin-right: 10px;
+  }
+
+  /* Hero Section Styles */
+  .hero {
+    height: 50vh;
+  }
+  .intro {
+    margin-bottom: 20px;
+  }
+
+  /* Portfolio Section Styles */
+  .my-row {
+    flex-direction: column;
+  }
+  .my-col {
+    flex-basis: 100%;
+    margin: 10px;
+  }
+  .my-card {
+    padding: 10px;
+  }
+  .card-image {
+    height: 100px;
+  }
+
+  /* About Section Styles */
+  .about {
+    padding: 20px;
+  }
+  .about-content {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .about-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  /* Footer Styles */
+  .footer {
+    padding: 10px;
+  }
+  .footer-links {
+    flex-direction: column;
+  }
+  .footer-link {
+    margin-bottom: 10px;
+  }
+}
+
+/* Tablet Devices (max-width: 768px) */
+
+@media (max-width: 768px) {
+  /* Header Styles */
+  .header {
+    padding: 15px;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  .navbar {
+    flex-direction: row;
+  }
+  .menu {
+    display: none;
+  }
+  .hamburger {
+    margin-right: 15px;
+  }
+
+  /* Hero Section Styles */
+  .hero {
+    height: 60vh;
+  }
+  .intro {
+    margin-bottom: 30px;
+  }
+
+  /* Portfolio Section Styles */
+  .my-row {
+    flex-direction: row;
+  }
+  .my-col {
+    flex-basis: 50%;
+    margin: 15px;
+  }
+  .my-card {
+    padding: 15px;
+  }
+  .card-image {
+    height: 150px;
+  }
+
+  /* About Section Styles */
+  .about {
+    padding: 30px;
+  }
+  .about-content {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .about-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  /* Footer Styles */
+  .footer {
+    padding: 15px;
+  }
+  .footer-links {
+    flex-direction: row;
+  }
+  .footer-link {
+    margin-right: 15px;
+  }
+}
+
+/* Desktop Devices (min-width: 1024px) */
+
+@media (min-width: 1024px) {
+  /* Header Styles */
+  .header {
+    padding: 20px;
+  }
+  .logo {
+    font-size: 24px;
+  }
+  .navbar {
+    flex-direction: row;
+  }
+  .menu {
+    display: none;
+  }
+  .hamburger {
+    margin-right: 20px;
+  }
+
+  /* Hero Section Styles */
+  .hero {
+    height: 80vh;
+  }
+  .intro {
+    margin-bottom: 40px;
+  }
+
+  /* Portfolio Section Styles */
+  .my-row {
+    flex-direction: row;
+  }
+  .my-col {
+    flex-basis: 33.33%;
+    margin: 20px;
+  }
+  .my-card {
+    padding: 20px;
+  }
+  .card-image {
+    height: 200px;
+  }
+
+  /* About Section Styles */
+  .about {
+    padding: 40px;
+  }
+  .about-content {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .about-text {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  /* Footer Styles */
+  .footer {
+    padding: 20px;
+  }
+  .footer-links {
+    flex-direction: row;
+  }
+  .footer-link {
+    margin-right: 20px;
+  }
+}

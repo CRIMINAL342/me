@@ -1,0 +1,245 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #212121;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Header Styles */
+
+.header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: none;
+}
+
+.hamburger {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.hamburger-icon {
+  font-size: 24px;
+  color: #fff;
+}
+
+.cross-icon {
+  font-size: 24px;
+  color: #fff;
+  display: none;
+}
+
+/* Hero Section Styles */
+
+.hero {
+  background-image: linear-gradient(to bottom, #333, #444);
+  background-size: 100% 300px;
+  background-position: 0% 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.greet-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.my-heading {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.sub-heading {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.intro-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.common-btn {
+  background-color: #333;
+}
+
+.ghost-btn {
+  background-color: transparent;
+  border: 1px solid #333;
+  color: #333;
+}
+
+/* Portfolio Section Styles */
+
+.portfolio {
+  padding: 40px;
+}
+
+.portfolio-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.my-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.my-col {
+  flex-basis: 30%;
+  margin: 20px;
+}
+
+.my-card {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-heading {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* About Section Styles */
+
+.about {
+  padding: 40px;
+}
+
+.about-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  .header {
+    padding: 10px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .hamburger {
+    margin-right: 10px;
+  }
+
+  .hero {
+    height: 50vh;
+  }
+
+  .intro {
+    margin-bottom: 20px;
+  }
+
+  .my-row {
+    flex-direction: column;
+  }
+
+  .my-col {
+    flex-basis: 100%;
+    margin: 10px;
+  }
+
+  .my-card {
+    padding: 10px;
+  }
+
+  .card-image {
+    height: 100px;
+  }
+
+  .about {
+    padding
